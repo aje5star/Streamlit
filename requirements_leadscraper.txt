@@ -1,0 +1,6 @@
+streamlit>=1.32.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pandas>=2.0.0
+# Optional; the app has a built-in fallback if this is not installed
+fake-useragent>=1.5.0
