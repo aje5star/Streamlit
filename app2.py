@@ -51,6 +51,7 @@ REQUEST_TIMEOUT = 10          # seconds
 MAX_PAGE_BYTES = 2_000_000    # never download more than ~2 MB of a single page
 POLITENESS_DELAY = 0.5        # seconds between requests to the same site
 MAX_LOG_LINES = 500
+DONATE_BTC_ADDRESS = "bc1qcvgn85qtg40uf7t88x32d2cfjwjrqhkaqgxkny"
 MAX_EMAILS_PER_SITE = 10
 MAX_PHONES_PER_SITE = 5
 
@@ -730,6 +731,11 @@ def render_sidebar() -> None:
             )
         else:
             st.caption("Exports appear here once you have leads.")
+
+        st.divider()
+        st.header("Donate")
+        st.caption("Enjoying the tool? Support it with Bitcoin (BTC):")
+        st.code(DONATE_BTC_ADDRESS, language=None)  # built-in copy button
 
 
 def render_dashboard() -> None:

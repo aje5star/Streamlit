@@ -47,6 +47,16 @@ The app opens at http://localhost:8501.
 
 ## Notes
 
-- Extracted contacts are scraped.
+- Extracted contacts are scraped, not verified.
 - Respect each site's terms of service and robots.txt, and follow the privacy and anti-spam laws that apply to you when contacting leads.
 - For high-volume use, an official search API (Google Programmable Search, SerpAPI) is more reliable than scraping result pages.
+
+## Donate
+
+If this tool saves you time, you can support its development with Bitcoin (BTC):
+
+```
+bc1qcvgn85qtg40uf7t88x32d2cfjwjrqhkaqgxkny
+```
+
+Please double-check the address before sending. Bitcoin transactions can't be reversed.
